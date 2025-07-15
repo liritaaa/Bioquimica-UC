@@ -50,7 +50,7 @@ const malla = [
       { id: "BIO225C", nombre: "Fisiología y Bioquímica Vegetal", prereq: ["BIO152C", "BIO151E"] },
       { id: "BIO274E", nombre: "Biología y Fisiología Celular", prereq: ["BIO152C", "BIO151E"] },
       { id: "BIO257C", nombre: "Bioquímica", prereq: ["BIO151E", "QIM103A"] },
-      { id: "BIO266D", nombre: "Laboratorio Bioquímica I y Biología Celular", prereq: ["BIO151E", "QIM103A", "QIM11"] },
+      { id: "BIO266D", nombre: "Laboratorio Bioquímica I y Biología Celular", prereq: ["BIO151E", "QIM103A", "QIM111"] },
       { id: "QIM104A", nombre: "Laboratorio Química Orgánica", prereq: ["QIM103A"] },
       { id: "EFG6", nombre: "EFG 6" }
     ]
@@ -63,7 +63,7 @@ const malla = [
       { id: "BIO299E", nombre: "Fisiología", prereq: ["BIO152C", "BIO257C"] },
       { id: "BIO299L", nombre: "Laboratorio de Fisiología", prereq: ["BIO299E"] },
       { id: "QIM114B", nombre: "Química Física I", prereq: ["QIM102C"] },
-      { id: "MAT1100B", nombre: "Cálculo II", prereq: ["MAT1100"] }
+      { id: "MAT1100B", nombre: "Cálculo II", prereq: ["MAT1100"] },
       { id: "EFG7", nombre: "EFG 7" }
     ]
   },
